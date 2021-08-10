@@ -127,7 +127,7 @@ function result() {
 const equalButton = document.querySelector('.cell20');
 equalButton.addEventListener('click', () => {
     // Fix issue with = button (part 3 step 6)
-    if (displayOne == undefined || displayTwo == undefined) {
+    if (displayOne == undefined) {
         return 
     } else {
      equal()
